@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--
   ============================================================================
-  PRABA HARINI R — Personal Portfolio (single-file build)
+  PRABA HARINI R - Personal Portfolio (single-file build)
   ----------------------------------------------------------------------------
-  Target programme : IFA Paris — Fashion & Luxury Brand Management (Sept 2027 intake, aspiration)
+  Target programme : IFA Paris - Fashion & Luxury Brand Management (Sept 2027 intake, aspiration)
   Stack            : Semantic HTML5 + CSS3 (in <style>) + Vanilla JS (in <script>)
   External deps    : Google Fonts ONLY (Playfair Display + Inter)
   Structure        :
@@ -18,7 +18,7 @@
   ------------
   1. All colours, fonts, spacing and sizes live in the :root token block below.
   2. Every image on this page is an intentionally LABELLED placeholder. Search for
-     "REPLACE PLACEHOLDER" — each one carries the exact <img> snippet to drop in.
+     "REPLACE PLACEHOLDER" - each one carries the exact <img> snippet to drop in.
   3. LinkedIn / Instagram are deliberate TODO placeholders (search "TODO").
   4. No photography, no brand logos and no third-party imagery are used anywhere.
   ============================================================================
@@ -28,15 +28,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Praba Harini R — Fashion &amp; Luxury Brand Management Aspirant</title>
-<meta name="description" content="Portfolio of Praba Harini R — fashion design, fashion illustration and brand strategy student aspiring to the Fashion &amp; Luxury Brand Management programme at IFA Paris, September 2027 intake.">
+<title>Praba Harini R - Fashion &amp; Luxury Brand Management Aspirant</title>
+<meta name="description" content="Portfolio of Praba Harini R - fashion design, fashion illustration and brand strategy student aspiring to the Fashion &amp; Luxury Brand Management programme at IFA Paris, September 2027 intake.">
 <meta name="author" content="Praba Harini R">
 
 <!-- Colour of the browser chrome, per colour-scheme preference -->
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FAF7F2">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141311">
 
-<!-- Favicon: inline "PH" monogram (own initials — no third-party mark).
+<!-- Favicon: inline "PH" monogram (own initials - no third-party mark).
      Being inline also prevents the browser's automatic /favicon.ico request (404 on GitHub Pages). -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231A1A1A'/%3E%3Ctext x='32' y='43.5' font-family='Georgia,serif' font-size='28' fill='%23C8B8A6' text-anchor='middle'%3EPH%3C/text%3E%3C/svg%3E">
 
@@ -71,10 +71,10 @@
   --text:        #1A1A1A;
   --text-muted:  #55524E;   /* 7.4:1 on ivory */
   --accent:      #8A6D3B;   /* decorative / large type only */
-  --accent-ink:  #6F5729;   /* gold for small text — 6.4:1 on ivory */
+  --accent-ink:  #6F5729;   /* gold for small text - 6.4:1 on ivory */
   --rule:        rgba(26,26,26,.14);
   --rule-strong: rgba(26,26,26,.30);
-  --micro-ink:   #4A423A;   /* micro labels sitting on blush/taupe blocks — 5:1+ */
+  --micro-ink:   #4A423A;   /* micro labels sitting on blush/taupe blocks - 5:1+ */
   --block-a:     #E8D8D2;   /* placeholder blocks: blush / taupe / ivory family */
   --block-b:     #C8B8A6;
   --block-c:     #F2EBE4;
@@ -234,7 +234,7 @@ a{ color: inherit; }
 }
 .section--tint{ background: var(--surface-alt); }
 
-/* Section identifier: 01 / THE PERSON — with a hairline running to the edge */
+/* Section identifier: 01 / THE PERSON - with a hairline running to the edge */
 .section-index{
   display: flex;
   align-items: center;
@@ -665,7 +665,7 @@ a{ color: inherit; }
   border: 1px solid var(--rule);
   background: var(--surface);
 }
-/* Slight rhythm change on wide screens — magazine, not a product grid */
+/* Slight rhythm change on wide screens - magazine, not a product grid */
 @media (min-width: 1024px){
   .work-card:nth-child(1) .work-card__media,
   .work-card:nth-child(4) .work-card__media{ aspect-ratio: 3 / 4; }
@@ -886,7 +886,7 @@ a{ color: inherit; }
 }
 
 /* ==========================================================================
-   11. VISUAL REFERENCES (moodboard) — typography + CSS shapes only
+   11. VISUAL REFERENCES (moodboard) - typography + CSS shapes only
    ========================================================================== */
 .mood{
   display: grid;
@@ -895,7 +895,7 @@ a{ color: inherit; }
 }
 .mood__block{
   position: relative;
-  overflow: hidden;              /* clips the rotated labels — no page overflow */
+  overflow: hidden;              /* clips the rotated labels - no page overflow */
   min-height: 190px;
   padding: clamp(1.4rem, 2.6vw, 2rem);
   border: 1px solid var(--rule);
@@ -1117,7 +1117,7 @@ a{ color: inherit; }
 .back-to-top:hover{ color: var(--accent-ink); }
 
 /* ==========================================================================
-   15. SCROLL REVEAL (progressive enhancement — content is visible without JS)
+   15. SCROLL REVEAL (progressive enhancement - content is visible without JS)
    ========================================================================== */
 .js [data-reveal]{
   opacity: 0;
@@ -1194,7 +1194,7 @@ a{ color: inherit; }
 
   <!-- ============================ 01 · HERO ============================ -->
   <section class="hero" id="hero" aria-labelledby="hero-title">
-    <span class="hero__rail" aria-hidden="true">Editorial Portfolio — 2026</span>
+    <span class="hero__rail" aria-hidden="true">Editorial Portfolio - 2026</span>
 
     <div class="wrap hero__inner">
       <div class="hero__copy">
@@ -1220,7 +1220,7 @@ a{ color: inherit; }
       <!--
         PERSONAL PORTRAIT
         ------------------------------------------------------------------
-        Real portrait (image.jpeg — 960 × 1280, 3:4). The .portrait__frame
+        Real portrait (image.jpeg - 960 × 1280, 3:4). The .portrait__frame
         wrapper keeps its 4:5 aspect ratio; object-fit: cover fills the frame
         and crops a small amount top/bottom. To swap the photo, change the
         src (and the width/height to match the new file).
@@ -1254,7 +1254,7 @@ a{ color: inherit; }
       <div class="about__grid">
         <div class="about__prose" data-reveal>
           <p class="lede">Creative and ambitious Biotechnology undergraduate with formal training in garment design, fashion illustration and fashion presentation.</p>
-          <p>My scientific education has given me a rigour — research, documentation, precision and analytical thinking — while my training in garment designing gave me a way to explore all of that through illustration, silhouette, styling and presentation.</p>
+          <p>My scientific education has given me a rigour - research, documentation, precision and analytical thinking - while my training in garment designing gave me a way to explore all of that through illustration, silhouette, styling and presentation.</p>
           <p>I combine analytical discipline with visual creativity and a strong interest in luxury fashion, brand management, communication and creative strategy. Drawn to Parisian fashion, Vogue, luxury houses and the business behind iconic brands, I am preparing for that conversation through the Fashion &amp; Luxury Brand Management programme at IFA Paris.</p>
         </div>
 
@@ -1291,7 +1291,7 @@ a{ color: inherit; }
         GALLERY STRUCTURE
         ------------------
         Six cards, each a <figure>. Every media area is currently a labelled
-        neutral placeholder built from flat colour blocks — no stock photography,
+        neutral placeholder built from flat colour blocks - no stock photography,
         no editorial images, no logos.
 
         TO ADD A REAL IMAGE
@@ -1306,7 +1306,7 @@ a{ color: inherit; }
         <figure class="work-card" data-reveal>
           <div class="work-card__media">
             <img src="images/illustration-01.jpeg"
-                 alt="Fashion illustration 01 by Praba Harini R — figure study in line and silhouette"
+                 alt="Fashion illustration 01 by Praba Harini R - figure study in line and silhouette"
                  loading="lazy">
           </div>
           <figcaption class="work-card__caption">
@@ -1320,7 +1320,7 @@ a{ color: inherit; }
         <figure class="work-card" data-reveal>
           <div class="work-card__media">
             <img src="images/illustration-02.jpeg"
-                 alt="Fashion illustration 02 by Praba Harini R — silhouette and line exploration"
+                 alt="Fashion illustration 02 by Praba Harini R - silhouette and line exploration"
                  loading="lazy">
           </div>
           <figcaption class="work-card__caption">
@@ -1334,7 +1334,7 @@ a{ color: inherit; }
         <figure class="work-card" data-reveal>
           <div class="work-card__media">
             <img src="images/illustration-03.jpeg"
-                 alt="Fashion illustration 03 by Praba Harini R — styling and garment detail study"
+                 alt="Fashion illustration 03 by Praba Harini R - styling and garment detail study"
                  loading="lazy">
           </div>
           <figcaption class="work-card__caption">
@@ -1362,7 +1362,7 @@ a{ color: inherit; }
         <figure class="work-card" data-reveal>
           <div class="work-card__media">
             <img src="images/design-exploration.jpeg"
-                 alt="Design exploration by Praba Harini R — concept, silhouette and shape pages"
+                 alt="Design exploration by Praba Harini R - concept, silhouette and shape pages"
                  loading="lazy">
           </div>
           <figcaption class="work-card__caption">
@@ -1404,7 +1404,7 @@ a{ color: inherit; }
         <li class="timeline__item" data-reveal>
           <p class="timeline__meta">Education</p>
           <h3 class="timeline__title">Diploma in Garment Designing</h3>
-          <p class="timeline__text">PSGR Krishnammal College for Women. One year of fashion designing — garment construction, the fundamental principles of fashion design, fashion illustration, concept exploration and a developed garment.</p>
+          <p class="timeline__text">PSGR Krishnammal College for Women. One year of fashion designing - garment construction, the fundamental principles of fashion design, fashion illustration, concept exploration and a developed garment.</p>
         </li>
 
         <li class="timeline__item" data-reveal>
@@ -1427,14 +1427,14 @@ a{ color: inherit; }
 
         <li class="timeline__item" data-reveal>
           <p class="timeline__meta">Internship · Marketing · 2026</p>
-          <h3 class="timeline__title">Marketing Internship — Aditya Birla</h3>
-          <p class="timeline__text">Internship with the marketing department from 2nd June to 31st July 2026 — exposure to brand communication, consumer experience and the discipline of a commercial business environment.</p>
+          <h3 class="timeline__title">Marketing Internship - Aditya Birla</h3>
+          <p class="timeline__text">Internship with the marketing department from 2nd June to 31st July 2026 - exposure to brand communication, consumer experience and the discipline of a commercial business environment.</p>
         </li>
 
         <!-- Aspiration only: not completed education and not a confirmed admission. -->
         <li class="timeline__item timeline__item--future" data-reveal>
           <p class="timeline__meta">Aspiration</p>
-          <h3 class="timeline__title">IFA Paris — September 2027</h3>
+          <h3 class="timeline__title">IFA Paris - September 2027</h3>
           <p class="timeline__text">Intention to pursue Fashion &amp; Luxury Brand Management at IFA Paris.</p>
           <span class="timeline__badge">Future Goal</span>
         </li>
@@ -1530,9 +1530,9 @@ a{ color: inherit; }
         <hr class="gold-rule">
 
         <p class="lede">I came to fashion through science, and that has become a strength rather than a detour.</p>
-        <p>My biotechnology degree trained me in research, documentation and analytical problem-solving — habits I built through a Gamma-D Crystallin research project and a Biosensor project.</p>
+        <p>My biotechnology degree trained me in research, documentation and analytical problem-solving - habits I built through a Gamma-D Crystallin research project and a Biosensor project.</p>
         <p>A two-month Animal Cell Culture internship at BBC Bangalore added another layer: precision, careful observation, teamwork, and the discipline of working inside a structured laboratory environment. A second internship with the marketing department at Aditya Birla then connected that rigour to brand communication and consumer experience.</p>
-        <p>None of that makes me a luxury brand manager. What it gives me is an interdisciplinary way to look at a problem — to research a subject properly, notice what others pass over, and stay exact about the details that shape how a brand is understood. It is a perspective I am still developing, and one I want to carry into fashion.</p>
+        <p>None of that makes me a luxury brand manager. What it gives me is an interdisciplinary way to look at a problem - to research a subject properly, notice what others pass over, and stay exact about the details that shape how a brand is understood. It is a perspective I am still developing, and one I want to carry into fashion.</p>
       </div>
 
       <!-- Abstract scientific linework. Decorative only. -->
@@ -1616,7 +1616,7 @@ a{ color: inherit; }
 
       <div class="skills__foot">
         <p><strong>Tools</strong> &nbsp;Microsoft Office · Canva</p>
-        <p><strong>Language</strong> &nbsp;English — Professional Proficiency</p>
+        <p><strong>Language</strong> &nbsp;English - Professional Proficiency</p>
       </div>
     </div>
   </section>
@@ -1628,7 +1628,7 @@ a{ color: inherit; }
       <header class="section-head">
         <p class="section-index"><span>07 / Visual References</span><span class="section-index__rule" aria-hidden="true"></span></p>
         <h2 class="section-title" id="moodboard-title">An eye for the world of fashion.</h2>
-        <p class="section-lede">Subjects I return to — Parisian fashion, editorial culture and the language of luxury brands.</p>
+        <p class="section-lede">Subjects I return to - Parisian fashion, editorial culture and the language of luxury brands.</p>
       </header>
 
       <div class="mood">
@@ -1691,7 +1691,7 @@ a{ color: inherit; }
       <p class="vision__statement">I aspire to build an international career at the intersection of fashion, luxury, creativity and business. My goal is to deepen my understanding of luxury brand management and fashion communication, pursue my ambitions through the Fashion &amp; Luxury Brand Management programme at IFA Paris, and eventually establish and lead my own fashion and luxury brand portfolio.</p>
 
       <p class="vision__label">IFA Paris · September 2027 Intake</p>
-      <p class="vision__note">Programme aspiration — an application intention, not an offer of admission.</p>
+      <p class="vision__note">Programme aspiration - an application intention, not an offer of admission.</p>
     </div>
   </section>
 
@@ -1714,7 +1714,7 @@ a{ color: inherit; }
 
         <div data-reveal>
           <!--
-            SOCIAL LINKS — DELIBERATE PLACEHOLDERS
+            SOCIAL LINKS - DELIBERATE PLACEHOLDERS
             ------------------------------------------
             These are intentionally NOT live links. No profile URLs, handles or
             accounts have been invented, and neither control navigates anywhere.
@@ -1766,7 +1766,7 @@ a{ color: inherit; }
 
 <script>
 /* ==========================================================================
-   Progressive enhancement only — every section is readable with JS disabled.
+   Progressive enhancement only - every section is readable with JS disabled.
    ========================================================================== */
 (function () {
   'use strict';
@@ -1780,7 +1780,7 @@ a{ color: inherit; }
   var desktopMQ = window.matchMedia('(min-width: 861px)');
 
   /* ------------------------------------------------------------------
-     1. Mobile menu — pointer + keyboard, with aria-expanded kept in sync
+     1. Mobile menu - pointer + keyboard, with aria-expanded kept in sync
      ------------------------------------------------------------------ */
   function menuIsOpen() {
     return toggle && toggle.getAttribute('aria-expanded') === 'true';
@@ -1795,7 +1795,7 @@ a{ color: inherit; }
     nav.classList.toggle('is-open', open);
     if (open) {
       // The panel animates in, so wait until it is actually visible before
-      // moving focus — a browser ignores focus() on a still-hidden element.
+      // moving focus - a browser ignores focus() on a still-hidden element.
       focusTimer = window.setTimeout(function () {
         var first = nav.querySelector('a');
         if (first && nav.classList.contains('is-open')) first.focus();
@@ -1825,7 +1825,7 @@ a{ color: inherit; }
       setMenu(false, false);
     });
 
-    // Growing past the mobile breakpoint reveals the inline nav — close the panel.
+    // Growing past the mobile breakpoint reveals the inline nav - close the panel.
     var onBreakpoint = function () { if (desktopMQ.matches) setMenu(false, false); };
     if (desktopMQ.addEventListener) desktopMQ.addEventListener('change', onBreakpoint);
     else if (desktopMQ.addListener) desktopMQ.addListener(onBreakpoint);
@@ -1858,12 +1858,12 @@ a{ color: inherit; }
     if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
     try { target.focus({ preventScroll: true }); } catch (err) { target.focus(); }
 
-    // history.pushState throws on some file:// setups — never let it break the page.
+    // history.pushState throws on some file:// setups - never let it break the page.
     try { window.history.replaceState(null, '', hash); } catch (err) {}
   });
 
   /* ------------------------------------------------------------------
-     3. Scroll-reveal — fade + slight rise, one shared observer
+     3. Scroll-reveal - fade + slight rise, one shared observer
      ------------------------------------------------------------------ */
   var revealables = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
 
